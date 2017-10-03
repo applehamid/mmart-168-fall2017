@@ -47,7 +47,7 @@ const getData = () => {
             // clear out existing tweets:
             clearData()
 
-            // output the text of the first tweet:
+            /*// output the text of the first tweet:
             status = json.statuses[0]
             div = document.createElement("div")
             div.className = "tweet"
@@ -64,24 +64,44 @@ const getData = () => {
             document.getElementById("results").appendChild(div)
 
             // 1. Describe what you think this code is doing.
+            //getData pulls two tweets from live twitter data -- they are also stylized in a readable format
 
             // 2. output the text of the third tweet:
+            status = json.statuses[2]
+            div = document.createElement("div")
+            div.className = "tweet"
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            document.getElementById("results").appendChild(div)
 
             // 3. output the text of the fourth tweet:
+            status = json.statuses[3]
+            div = document.createElement("div")
+            div.className = "tweet"
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            document.getElementById("results").appendChild(div)
 
             // 4. output the text of the fifth tweet:
+            status = json.statuses[4]
+            div = document.createElement("div")
+            div.className = "tweet"
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            document.getElementById("results").appendChild(div)
 
             // 5. comment the code above, starting from after the clearData,
             //    and ending right before this comment. Then, un-comment the
-            //    code below:
+            //    code below:*/
 
-            /*json.statuses.forEach(function (status) {
+            json.statuses.forEach(function (status) {
                 div = document.createElement("div")
                 div.className = "tweet"
                 textNode = document.createTextNode(status.text)
                 div.appendChild(textNode)
                 document.getElementById("results").appendChild(div)
-            })*/
+            })
+            //forEach looks like it's creating a stream of tweets from the hashtag search -- without writing out separate code for each tweet as above
 
         })
 };
