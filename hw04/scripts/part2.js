@@ -21,6 +21,10 @@ const setLanguage = (code) => {
 
 
 const getData = () => {
+    //getData is pulling twitter feed data
+    //reference the first status by typing jsonData.statuses[0] into the console
+    //reference the text property of the fifth status by typing jsonData.statuses[4].text into the console
+    //Extra credit: reference the name property by typing jsonData.statuses[1].name
     const term = document.getElementById('term').value
     const baseURL = 'https://mmart168-twitter-proxy.herokuapp.com/1.1/search/tweets.json?q=' + term
     twitterURL = baseURL + '&lang=' + languageCode
