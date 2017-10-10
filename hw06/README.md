@@ -16,7 +16,14 @@ This homework will require some googling. As a software engineer, a lot of what 
 6. Verify that you are now on the new branch: `$ git branch` (check that your new branch has an asterisk next to it).
 
 ## PART II: Reading response
-Edit README.MD and write your reading response here!
+Developer Tea: Traits of Being a Great Developer
+https://spec.fm/podcasts/developer-tea/88147
+
+This episode of Developer Tea is a recap of a series of episodes on the traits that make a great developer and conversely, a great developer career. The traits: humility, grit, an expanding perspective, communication, dedication to learning, and curiosity. The host explains that understanding the user or the product is the easy part. But a career in coding will require these traits as you work on teams and work through ideas.
+
+I think this contains some great advice for anyone working in code, whether they are first starting out or are a seasoned programmer. These traits are ones that can be worked on and indeed can help throughout your life outside of your career. In particular to the tech industry, it seems likely that a person will be more successful if they are humble and collaborative with their teammates, can work with and through failures and bugs, and foster a commitment to learning.
+ 
+
 
 ## Part III: JavaScript Homework
 
