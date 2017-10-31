@@ -7,7 +7,13 @@
 // appends an "li" element, with the string inside, to the un-ordered
 // list ("ul" tag):
 
+const addItemToUl = (item) => {
+  document.getElementById('output').innerHTML += "<li>" + item + "</li>"
+}
 
+addItemToUl("About")
+addItemToUl("Contact")
+addItemToUl("Locations")
 
 //------------------------------------------------------------------
 // PART II
@@ -19,3 +25,15 @@
 // 2. If the number is divisible by 5, append "Buzz" to the unordered list
 // 3. If the number is divisible by 3 AND 5, append "FizzBuzz" to the unordered list.
 // 4. Bonus points: Include both the number *and* the word you've appended to the list
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    addItemToUl("Fizz")
+  } else if (i % 3 === 0) {
+    addItemToUl("Buzz")
+  } else if (i % 5 === 0) {
+    addItemToUl("FizzBuzz")
+  } else {
+    addItemToUl(i)
+  }
+}
